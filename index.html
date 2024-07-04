@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .post {
+        margin-bottom: 20px;
+      }
+      .pagination {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      .pagination button {
+        margin: 0 5px;
+        padding: 10px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="posts"></div>
+    <div class="pagination">
+      <button onclick="previousPage()" style="cursor: pointer">prev</button>
+      <button onclick="nextPage()" style="cursor: pointer">next</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
